@@ -20,10 +20,9 @@
 #endif
 
 /*************************TUHIN****************************
-#define FIXED_POINT
 
 *************************/
-
+//#define FLOATING_POINT
 /* Default to floating point */
 #ifndef FIXED_POINT
 #  define FLOATING_POINT

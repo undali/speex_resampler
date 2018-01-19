@@ -3,12 +3,12 @@ import sys
 
 chunk = 1024
 FORMAT = pyaudio.paInt16
-CHANNELS = 1
+CHANNELS = 2
 RATE = 48000
-RECORD_SECONDS = 20
+RECORD_SECONDS = 5
 
 p = pyaudio.PyAudio()
-file = open('output_out.pcm', 'wb')
+file = open('in_48000.pcm', 'wb')
 
 stream = p.open(format=FORMAT,
                 channels=CHANNELS, 
